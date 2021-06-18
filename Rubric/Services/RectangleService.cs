@@ -4,7 +4,7 @@ using Assignment01.Models;
 
 namespace Assignment01.Services
 {
-    class RectangleService: Rectangle
+    internal class RectangleService: Rectangle
     {
         private readonly Dictionary<int, Func<int>> _rectangleReadOnlyOperations;
 

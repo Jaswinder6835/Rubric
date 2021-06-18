@@ -1,6 +1,6 @@
 ﻿namespace Assignment01
 {
-    interface IRectangle
+    public interface IRectangle
     {
         public int GetLength();
         public void SetLength(int length);
