@@ -1,4 +1,4 @@
-﻿namespace Rubric
+﻿namespace Assignment01
 {
     interface IRectangle
     {

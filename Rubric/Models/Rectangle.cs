@@ -1,4 +1,4 @@
-﻿namespace Rubric
+﻿namespace Assignment01.Models
 {
     public class Rectangle: IRectangle
     {
@@ -23,7 +23,10 @@
 
         public void SetLength(int length)
         {
-            this.length = length;
+            if (length >= 1)
+            {
+                this.length = length;
+            }
         }
 
         public int GetWidth()
@@ -33,7 +36,10 @@
 
         public void SetWidth(int width)
         {
-            this.width = width;
+            if (width >= 1)
+            {
+                this.width = width;
+            }
         }
 
         public int GetPerimeter()
